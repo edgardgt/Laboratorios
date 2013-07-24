@@ -4,4 +4,8 @@ lexer grammar Lab03;
 	package laboratorios.lab03;
 }
 
-RESERV: 'INT'|'BOOLEAN' {System.out.println("suma");};
+RESERV: ('int'|'boolean') {System.out.println("RESERVADA");};
+ENTERO: ('-')?('0'..'9')+ {System.out.println("ENTERO");};
+FLOTAN: (ENTERO('.'('0'..'9'))?) {System.out.println("ENTERO");};
+
+IGNORAR : ('\t'|'\n'|'\r'|' ')+ { skip();};
