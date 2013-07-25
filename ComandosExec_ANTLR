@@ -1,13 +1,13 @@
 Comandos a ejecutar desde el CMD de DOS para compilar y ejecutar gramaticas ANTLR 
 
 
-1. EJECUTAR ANTLR, para que genere codigo java a partir de la gramatica <Lab02.g>
-C:\cc4\laboratorios\lab02> java -jar c:\Javalib\antlr-4.1-complete.jar Lab02.g
+1. EJECUTAR ANTLR, para que genere codigo java a partir de la gramatica <Lab03.g>
+C:\cc4\laboratorios\lab03> java -jar c:\Javalib\antlr-4.1-complete.jar Lab03.g
 
 
 2. COMPILAR EL Main.java
-C:\cc4>javac laboratorios\lab02\Main.java
+C:\cc4>javac laboratorios\lab03\Main.java
 
 
 3. EJECUTAR EL Main.java
-C:\cc4>java laboratorios.lab02.Main laboratorios\lab02\t.txt
+C:\cc4>java laboratorios.lab03.Main laboratorios\lab03\t.txt
